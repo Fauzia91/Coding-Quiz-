@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <div id="timer"></div>
+        <button id="startbutton">Start Quiz</button>
+        <div id="card" style="display: none;">
+        
+        </div> 
+        <div id="gameover" style="display: none;">
+        <h2>Game Over</h2>
+        <div id="score"></div>
+
+        <input type="text" id="name">
+        <input type="submit" id="nameSubmit" value ="submit">
+        </div> 
+        <div id="highScore" style="display:none;">
+            <h2>High Scores</h2>
+            <div id="list">
+
+            </div>
+            <input type="submit" id="clearBtn" value="Clear Scores">
+            
+            <button id="goback" onclick="history.back()">Go Back</button>
+
+
+            </div>
+            
+            
+        </div>
+        <div id="message"></div>
+        
+    </div>
+</div><!-- end of container -->
+
+  
+    
+ <script src="script.js"></script>   
+</body>
+</html> 
